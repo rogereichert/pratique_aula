@@ -13,18 +13,18 @@ import java.util.Scanner;
 public class SistemaCadastroEventosView {
 
     public void mostrarMenu() {
-        System.out.println("==== Sistema de Cadastro e Notificação de Eventos ====");
+        System.out.println("\n==== Sistema de Cadastro e Notificação de Eventos ====\n");
         System.out.println("1. Cadastrar Usuário");
         System.out.println("2. Cadastrar Evento");
         System.out.println("3. Consultar Usuário");
         System.out.println("4. Consultar Eventos");
-        System.out.println("5. Visualizar Participações");
+        System.out.println("5. Listar Eventos");
         System.out.println("6. Sair");
-        System.out.print("Escolha a opção: ");
+        System.out.print("\nEscolha a opção: ");
     }
 
     public void mostrarMensagem(String mensagem) {
-        System.out.println(mensagem);
+        System.out.print(mensagem);
     }
 
     public String lerEntrada() {
