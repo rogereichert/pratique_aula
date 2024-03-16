@@ -13,12 +13,17 @@ import views.SistemaCadastroEventosView;
  *
  * @author roger reichert
  * @version 1.0
+ * Classe responsável por controlar as operações relacionadas aos eventos.
  */
 public class EventoController {
     
     private List<Event> eventos;
     private SistemaCadastroEventosView view;
-    
+
+    /**
+     * Construtor padrão da classe EventoController.
+     * Inicializa a lista de eventos e a view do sistema.
+     */
     public EventoController(){
         this.eventos = new ArrayList<>();
         this.view = new SistemaCadastroEventosView();
@@ -81,6 +86,11 @@ public class EventoController {
         }
     }
 
+    /**
+     * Verifica se há eventos cadastrados na lista de eventos.
+     *
+     * @return true se há eventos cadastrados, false caso contrário.
+     */
     public Boolean verificarEventosCadastrados(){
         if (eventos.isEmpty()){
             System.out.println("Não há eventos cadastrados!");
@@ -90,9 +100,15 @@ public class EventoController {
         }
     }
 
+    /**
+     * Lista todos os eventos cadastrados.
+     *
+     * Verifica se há eventos cadastrados na lista de eventos e, se houver, os exibe na tela.
+     * Caso contrário, exibe uma mensagem indicando que não há eventos cadastrados.
+     */
     public void listarEventos(){
         if (eventos.isEmpty()){
-            view.mostrarMensagem("Não há eventos cadastrados ou ativos");
+            view.mostrarMensagem("\nNão há eventos cadastrados ou ativos\n");
         }else{
             view.mostrarMensagem("\n==== Lista de Eventos ====\n");
 

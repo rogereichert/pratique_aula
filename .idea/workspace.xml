@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3d56d85-708a-4aae-995d-7f69b4982840" name="Changes" comment="">
+    <list default="true" id="c3d56d85-708a-4aae-995d-7f69b4982840" name="Changes" comment="Foi adicionado os métodos listarEventos, verificarEventosCadastrados e ajustes em consultarEventos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mavenproject1/src/main/java/controllers/EventoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/src/main/java/controllers/EventoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/src/main/java/views/SistemaCadastroEventosView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/src/main/java/views/SistemaCadastroEventosView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/target/classes/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mavenproject1/target/classes/controllers/EventoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/target/classes/controllers/EventoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/target/classes/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/target/classes/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/target/classes/models/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/target/classes/models/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/target/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/target/classes/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenproject1/target/classes/views/SistemaCadastroEventosView.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenproject1/target/classes/views/SistemaCadastroEventosView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rogereichert"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f93a7085-2f14-4386-ada4-b0ad965d5146" />
+        <option name="url" value="https://github.com/rogereichert/pratique_aula.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -86,8 +93,25 @@
       <option name="presentableId" value="Default" />
       <updated>1710554716357</updated>
       <workItem from="1710554717392" duration="10099000" />
-      <workItem from="1710585161317" duration="3370000" />
+      <workItem from="1710585161317" duration="5092000" />
     </task>
+    <task id="LOCAL-00001" summary="Foi adicionado os métodos listarEventos, verificarEventosCadastrados e ajustes em consultarEventos">
+      <option name="closed" value="true" />
+      <created>1710588648179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710588648179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Foi adicionado os métodos listarEventos, verificarEventosCadastrados e ajustes em consultarEventos">
+      <option name="closed" value="true" />
+      <created>1710588722764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710588722764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Foi adicionado os métodos listarEventos, verificarEventosCadastrados e ajustes em consultarEventos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foi adicionado os métodos listarEventos, verificarEventosCadastrados e ajustes em consultarEventos" />
   </component>
 </project>
