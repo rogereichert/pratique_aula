@@ -29,12 +29,21 @@ public class UserController {
 
         view.mostrarMensagem("Nome: ");
         user.setName(view.lerEntrada());
+        
+        view.mostrarMensagem("CPF: ");
+        user.setCpf(view.lerEntrada());
 
         view.mostrarMensagem("Endereço: ");
         user.setEndereco(view.lerEntrada());
 
         view.mostrarMensagem("Cidade: ");
         user.setCidade(view.lerEntrada());
+        
+        view.mostrarMensagem("Estado: ");
+        user.setEstado(view.lerEntrada());
+        
+        view.mostrarMensagem("Idade: ");
+        user.setIdade(Integer.parseInt(view.lerEntrada()));
 
         users.add(user);
         view.mostrarMensagem("Usuário cadastrado com sucesso!\n");

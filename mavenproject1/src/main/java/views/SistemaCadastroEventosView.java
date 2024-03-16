@@ -16,10 +16,10 @@ public class SistemaCadastroEventosView {
         System.out.println("==== Sistema de Cadastro e Notificação de Eventos ====");
         System.out.println("1. Cadastrar Usuário");
         System.out.println("2. Cadastrar Evento");
-        System.out.println("3. Consultar Eventos");
-        System.out.println("4. Visualizar Participações");
-        System.out.println("6. Buscar Usuário");
-        System.out.println("5. Sair");
+        System.out.println("3. Consultar Usuário");
+        System.out.println("4. Consultar Eventos");
+        System.out.println("5. Visualizar Participações");
+        System.out.println("6. Sair");
         System.out.print("Escolha a opção: ");
     }
 

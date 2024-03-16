@@ -89,9 +89,9 @@ public class User {
                 + "name='" + name + '\''
                 + ", endereco='" + endereco + '\''
                 + ", cidade='" + cidade + '\''
-                + ", cidade='" + estado + '\''
-                + ", cidade='" + idade + '\''
-                + ", cidade='" + cpf + '\''
+                + ", estado='" + estado + '\''
+                + ", idade='" + idade + '\''
+                + ", cpf='" + cpf + '\''
                 + '}';
     }
 
