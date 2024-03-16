@@ -1,0 +1,6 @@
+models\User.class
+App.class
+models\Event.class
+controllers\UserController.class
+controllers\EventoController.class
+views\SistemaCadastroEventosView.class
