@@ -26,23 +26,32 @@ public class App {
 
             switch (choice) {
                 case 1:
+                    // cadastrar usuário
                     userController.cadastrarUsuario();
                     break;
                 case 2:
+                    // cadastrar evento
                     eventController.cadastroEventos();
                     break;
                 case 3:
+                    // consultar usuário pelo CPF
                     System.out.println("Digite um nome para consulta: ");
                     String buscarNome = scanner.nextLine();
                     userController.buscarUsuario(buscarNome);
                     break;
                 case 4:
-                    System.out.println("Digite o nome do evento: ");
-                    String buscarEvento = scanner.next();
-                    eventController.consultarEventos(buscarEvento);
+                    // Consultar evento pelo nome
+                    if (eventController.verificarEventosCadastrados()){
+                        System.out.println("\n==== Consulta de Eventos ====");
+                        System.out.print("Digite o nome do evento: ");
+                        String buscarEvento = scanner.next();
+                        eventController.consultarEventos(buscarEvento);
+                    }
                     break;
                 case 5:
-                    // consultar participa
+                    // listar Eventos
+                    eventController.listarEventos();
+                    break;
                 case 6:
                     System.exit(0);
                     break;
